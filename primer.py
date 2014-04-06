@@ -20,8 +20,8 @@ class Ventana(QWidget):
     Label.setPixmap(pixmapImagen)
     
 if __name__=="__main__":
-  ventana = Ventana()
   aplicacion = QApplication (sys.argv)
+  ventana = Ventana()
   ventana.ponerImagen()
   ventana.show()
   aplicacion.exec_()
